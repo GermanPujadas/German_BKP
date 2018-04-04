@@ -17,7 +17,7 @@ public class UT2 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        ContadorDePalabras contador = new ContadorDePalabras("/Users/germanpujadas/Downloads/UT2_TA1_ARCHIVO_EJEMPLO.txt");
+        ContadorDePalabras contador = new ContadorDePalabras("");
         System.out.println("Cantidad de palabras del documento: "+ contador.contarPalabras(contador.leerArchivo()));
         
     }
